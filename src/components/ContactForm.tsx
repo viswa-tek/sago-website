@@ -6,6 +6,13 @@ import { businessInfo } from "@/content/business";
 export default function ContactForm() {
   const [status, setStatus] = useState<"idle" | "sending" | "success" | "error">("idle");
 
+  function trackContactResult(result: "success" | "error", subject: string) {
+    window.gtag?.("event", "contact_form_result", {
+      result,
+      subject,
+    });
+  }
+
   async function handleSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
     setStatus("sending");
@@ -39,13 +46,16 @@ export default function ContactForm() {
 
       if (!res.ok) {
         setStatus("error");
+        trackContactResult("error", subject);
         return;
       }
 
       form.reset();
       setStatus("success");
+      trackContactResult("success", subject);
     } catch {
       setStatus("error");
+      trackContactResult("error", subject);
     }
   }
 
