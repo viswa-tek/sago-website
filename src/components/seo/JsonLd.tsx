@@ -2,6 +2,7 @@ import { businessInfo } from "@/content/business";
 import { faqs } from "@/content/faq";
 import { products } from "@/content/products";
 import { averageRating, totalReviews } from "@/content/reviews";
+import { services } from "@/content/services";
 
 export function LocalBusinessSchema() {
   const schema = {
@@ -46,6 +47,19 @@ export function LocalBusinessSchema() {
       "@type": "City",
       name: "Tirunelveli",
     },
+    serviceArea: businessInfo.nearbyAreas.map((area) => ({
+      "@type": "Place",
+      name: area,
+    })),
+    makesOffer: services.map((service) => ({
+      "@type": "Offer",
+      itemOffered: {
+        "@type": "Service",
+        name: service.title,
+        description: service.description,
+        areaServed: "Tirunelveli",
+      },
+    })),
   };
 
   return (

@@ -1,5 +1,27 @@
-import ComingSoonPage from "@/components/ComingSoonPage";
+import HeroSection from "@/components/home/HeroSection";
+import CategoriesSection from "@/components/home/CategoriesSection";
+import ServicesSection from "@/components/home/ServicesSection";
+import WhyChooseUsSection from "@/components/home/WhyChooseUsSection";
+import FeaturedProductsSection from "@/components/home/FeaturedProductsSection";
+import ReviewsSection from "@/components/home/ReviewsSection";
+import FAQSection from "@/components/home/FAQSection";
+import ContactMapSection from "@/components/home/ContactMapSection";
+import { LocalBusinessSchema, ProductSchema, FAQSchema } from "@/components/seo/JsonLd";
 
 export default function HomePage() {
-  return <ComingSoonPage />;
+  return (
+    <>
+      <LocalBusinessSchema />
+      <ProductSchema />
+      <FAQSchema />
+      <HeroSection />
+      <CategoriesSection />
+      <ServicesSection />
+      <WhyChooseUsSection />
+      <FeaturedProductsSection />
+      <ReviewsSection />
+      <FAQSection />
+      <ContactMapSection />
+    </>
+  );
 }

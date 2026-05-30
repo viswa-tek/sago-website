@@ -44,4 +44,19 @@ export const faqs: FAQItem[] = [
     answer:
       "Absolutely! If you need a specific product that is not currently available, we can order it for you. Please contact us via phone or WhatsApp with your requirements.",
   },
+  {
+    question: "Do you provide mobile, laptop, and desktop service support?",
+    answer:
+      "Yes, we provide mobile service support and laptop or desktop service guidance for common issues, accessories, upgrades, and diagnosis. Please call or visit the store with your device details.",
+  },
+  {
+    question: "Can I do mobile recharge, buy SIM cards, or get printouts at SagO?",
+    answer:
+      "Yes, SagO supports all kinds of mobile recharges, SIM card sales, new feature phones, Xerox, and printout services for nearby customers in Tirunelveli.",
+  },
+  {
+    question: "Which nearby areas do you serve in Tirunelveli?",
+    answer:
+      "SagO is located in Maharaja Nagar near Sivanthipatti Main Road and serves nearby areas such as Thiyagaraja Nagar, Sivanthipatti, Anbu Nagar, EB Colony, Pothigai Nagar, Ponvila Nagar, Railway Feeder Road, TVS Nagar, Tamirapathi Colony, LIC Colony, Anaiyarkulam, Canara Bank Colony, Perumalpuram, IOB Colony, Velavar Colony, and surrounding Tirunelveli localities.",
+  },
 ];

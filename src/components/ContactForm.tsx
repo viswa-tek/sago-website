@@ -95,6 +95,12 @@ export default function ContactForm() {
           <option value="Product Inquiry">Product Inquiry</option>
           <option value="Price Inquiry">Price Inquiry</option>
           <option value="Availability Check">Availability Check</option>
+          <option value="Mobile Service">Mobile Service</option>
+          <option value="Laptop or Desktop Service">Laptop or Desktop Service</option>
+          <option value="Mobile Recharge">Mobile Recharge</option>
+          <option value="SIM Card">SIM Card</option>
+          <option value="Feature Phone">Feature Phone</option>
+          <option value="Xerox or Printout">Xerox or Printout</option>
           <option value="Bulk Order">Bulk Order</option>
           <option value="Feedback">Feedback</option>
           <option value="Other">Other</option>

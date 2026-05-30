@@ -8,6 +8,7 @@ import { businessInfo } from "@/content/business";
 const navLinks = [
   { href: "/", label: "Home" },
   { href: "/products", label: "Products" },
+  { href: "/#services", label: "Services" },
   { href: "/about", label: "About" },
   { href: "/reviews", label: "Reviews" },
   { href: "/contact", label: "Contact" },
