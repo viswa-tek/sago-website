@@ -10,5 +10,5 @@ export interface Review {
 
 export const reviews: Review[] = [];
 
-export const averageRating = 4.9;
+export const averageRating = 5.0;
 export const totalReviews = 32; // Based on Google Business Profile data

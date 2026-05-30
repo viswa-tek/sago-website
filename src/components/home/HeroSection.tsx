@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { businessInfo } from "@/content/business";
+import { averageRating } from "@/content/reviews";
 import { useEffect, useState } from "react";
 
 export default function HeroSection() {
@@ -139,7 +140,7 @@ export default function HeroSection() {
         {/* Stats Row */}
         <div className="flex justify-center gap-8 md:gap-24 border-t border-white/10 pt-12 pb-12">
           <div className="text-center">
-            <div className="text-4xl md:text-5xl font-black text-white drop-shadow-lg">4.9<span className="text-accent-400 text-3xl">★</span></div>
+            <div className="text-4xl md:text-5xl font-black text-white drop-shadow-lg">{averageRating.toFixed(1)}<span className="text-accent-400 text-3xl">★</span></div>
             <div className="text-[10px] md:text-xs text-primary-200 font-bold uppercase tracking-[0.2em] mt-2">Google Rating</div>
           </div>
           <div className="text-center">
