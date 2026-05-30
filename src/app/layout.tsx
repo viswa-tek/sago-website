@@ -2,6 +2,10 @@ import type { Metadata } from "next";
 import { Inter, Outfit } from "next/font/google";
 import Script from "next/script";
 import "./globals.css";
+import Header from "@/components/layout/Header";
+import Footer from "@/components/layout/Footer";
+import WhatsAppFloat from "@/components/layout/WhatsAppFloat";
+import AnalyticsEvents from "@/components/analytics/AnalyticsEvents";
 import { businessInfo } from "@/content/business";
 
 const inter = Inter({
@@ -79,7 +83,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             </Script>
           </>
         )}
-        {children}
+        <Header />
+        <main id="main-content">{children}</main>
+        <Footer />
+        <WhatsAppFloat />
+        {googleAnalyticsId && <AnalyticsEvents />}
       </body>
     </html>
   );
