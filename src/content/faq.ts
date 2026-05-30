@@ -57,6 +57,6 @@ export const faqs: FAQItem[] = [
   {
     question: "Which nearby areas do you serve in Tirunelveli?",
     answer:
-      "SagO is located in Maharaja Nagar near Sivanthipatti Main Road and serves nearby areas such as Thiyagaraja Nagar, Sivanthipatti, Anbu Nagar, EB Colony, Pothigai Nagar, Ponvila Nagar, Railway Feeder Road, TVS Nagar, Tamirapathi Colony, LIC Colony, Anaiyarkulam, Canara Bank Colony, Perumalpuram, IOB Colony, Velavar Colony, and surrounding Tirunelveli localities.",
+      "SagO is located in Maharaja Nagar near Sivanthipatti Main Road and serves nearby areas such as Thiyagaraja Nagar, Sivanthipatti, Anbu Nagar, EB Colony, Pothigai Nagar, Ponvila Nagar, Railway Feeder Road, TVS Nagar, Tamirapathi Colony, LIC Colony, Anaiyarkulam, Canara Bank Colony, Perumalpuram, IOB Colony, Velavar Colony, Kuthukkal, Rajagopalapuram, Mallika Colony, Kumaresan Nagar, Muthoor, Kodikulam, Porunai Museum, Ramachandra Nagar, and surrounding Tirunelveli localities.",
   },
 ];
