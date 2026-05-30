@@ -103,7 +103,7 @@ export default function HeroSection() {
         </h1>
         
         <p className="text-xl md:text-2xl text-primary-100/90 mb-12 max-w-3xl mx-auto leading-relaxed font-light drop-shadow-md">
-          SagO is Tirunelveli&apos;s premier destination for curated mobile accessories and professional computer spares. Experience the perfect blend of style, durability, and performance.
+          SagO is Tirunelveli&apos;s destination for mobile and computer accessories, service support, recharges, SIM cards, feature phones, Xerox, and printout needs.
         </p>
 
         <div className="flex flex-wrap gap-6 justify-center mb-12">
@@ -112,6 +112,10 @@ export default function HeroSection() {
               Explore Collection
               <svg className="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
             </span>
+          </Link>
+          <Link href="/#services" className="btn-elegant bg-white/10 backdrop-blur-md text-white border border-white/20 hover:border-white/50 hover:bg-white/20 flex items-center gap-2 group">
+            <svg className="w-5 h-5 text-accent-400 group-hover:scale-110 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11.42 15.17 17.25 21A2.652 2.652 0 0 0 21 17.25l-5.83-5.83M11.42 15.17 5.77 20.82a2.25 2.25 0 0 1-3.18-3.18l5.65-5.65m3.18 3.18 3.75-3.75m0 0 1.77-1.77a3.75 3.75 0 0 0-5.3-5.3L9.87 6.12m5.3 5.3L9.87 6.12m0 0 1.42-1.42" /></svg>
+            View Services
           </Link>
           <a href={businessInfo.googleMapsLink} target="_blank" rel="noopener noreferrer" className="btn-elegant bg-white/10 backdrop-blur-md text-white border border-white/20 hover:border-white/50 hover:bg-white/20 flex items-center gap-2 group">
             <svg className="w-5 h-5 text-accent-400 group-hover:scale-110 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" /><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" /></svg>
@@ -139,8 +143,8 @@ export default function HeroSection() {
             <div className="text-[10px] md:text-xs text-primary-200 font-bold uppercase tracking-[0.2em] mt-2">Google Rating</div>
           </div>
           <div className="text-center">
-            <div className="text-4xl md:text-5xl font-black text-white drop-shadow-lg">1000+</div>
-            <div className="text-[10px] md:text-xs text-primary-200 font-bold uppercase tracking-[0.2em] mt-2">Premium Items</div>
+            <div className="text-4xl md:text-5xl font-black text-white drop-shadow-lg">8+</div>
+            <div className="text-[10px] md:text-xs text-primary-200 font-bold uppercase tracking-[0.2em] mt-2">Store Services</div>
           </div>
           <div className="text-center">
             <div className="text-4xl md:text-5xl font-black text-white drop-shadow-lg">2021</div>

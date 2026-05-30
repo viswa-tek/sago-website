@@ -3,10 +3,13 @@ export const businessInfo = {
   shortName: "SagO",
   tagline: "Your One-Stop Shop for Mobile & Computer Accessories",
   description:
-    "Buy mobile covers, chargers, tempered glass, earphones, power banks, keyboards, mouse, laptop chargers, SSDs, RAM, cables, and computer accessories in Tirunelveli at affordable prices.",
+    "Buy mobile and computer accessories in Tirunelveli and get mobile service, laptop and desktop service support, recharges, SIM cards, feature phones, Xerox, and printout services.",
   category: [
     "Cell Phone Accessory Store",
     "Computer Accessories Store",
+    "Mobile Phone Repair Shop",
+    "Computer Repair Service",
+    "Print Shop",
   ],
   address: {
     street: "No. 9, EB Society Complex, Sivanthipatti Main Road",
@@ -44,12 +47,19 @@ export const businessInfo = {
   serviceArea: "Tirunelveli and nearby areas",
   seo: {
     title:
-      "Best Mobile & Computer Accessories Shop in Tirunelveli | SagO Mobile",
+      "Mobile, Computer Accessories & Services in Tirunelveli | SagO",
     description:
-      "SagO Mobile & Computer Accessories: Tirunelveli's #1 shop for premium mobile covers, original laptop chargers, SSD, RAM, tempered glass, and computer peripherals. Visit us today for quality tech at local prices.",
+      "SagO Mobile & Computer Accessories in Tirunelveli offers mobile accessories, computer accessories, mobile service, laptop and desktop service support, recharges, SIM cards, feature phones, Xerox, and printout services.",
     keywords: [
       "best mobile accessories shop in Tirunelveli",
       "computer accessories store Tirunelveli",
+      "mobile service Tirunelveli",
+      "laptop service Tirunelveli",
+      "desktop service Tirunelveli",
+      "mobile recharge Tirunelveli",
+      "SIM card sales Tirunelveli",
+      "feature phones Tirunelveli",
+      "Xerox printout Tirunelveli",
       "mobile shop near me Tirunelveli",
       "premium mobile covers Tirunelveli",
       "original laptop chargers Tirunelveli",

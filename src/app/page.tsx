@@ -1,5 +1,6 @@
 import HeroSection from "@/components/home/HeroSection";
 import CategoriesSection from "@/components/home/CategoriesSection";
+import ServicesSection from "@/components/home/ServicesSection";
 import WhyChooseUsSection from "@/components/home/WhyChooseUsSection";
 import FeaturedProductsSection from "@/components/home/FeaturedProductsSection";
 import ReviewsSection from "@/components/home/ReviewsSection";
@@ -15,6 +16,7 @@ export default function HomePage() {
       <FAQSchema />
       <HeroSection />
       <CategoriesSection />
+      <ServicesSection />
       <WhyChooseUsSection />
       <FeaturedProductsSection />
       <ReviewsSection />

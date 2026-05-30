@@ -44,4 +44,14 @@ export const faqs: FAQItem[] = [
     answer:
       "Absolutely! If you need a specific product that is not currently available, we can order it for you. Please contact us via phone or WhatsApp with your requirements.",
   },
+  {
+    question: "Do you provide mobile, laptop, and desktop service support?",
+    answer:
+      "Yes, we provide mobile service support and laptop or desktop service guidance for common issues, accessories, upgrades, and diagnosis. Please call or visit the store with your device details.",
+  },
+  {
+    question: "Can I do mobile recharge, buy SIM cards, or get printouts at SagO?",
+    answer:
+      "Yes, SagO supports all kinds of mobile recharges, SIM card sales, new feature phones, Xerox, and printout services for nearby customers in Tirunelveli.",
+  },
 ];

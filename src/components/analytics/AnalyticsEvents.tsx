@@ -17,7 +17,8 @@ function getLinkEvent(href: string) {
   if (href.startsWith("mailto:")) return "email_click";
   if (href.includes("wa.me") || href.includes("whatsapp")) return "whatsapp_click";
   if (href.includes("google.com/maps")) return "directions_click";
-  if (href.includes("/products") || href.startsWith("#")) return "product_navigation_click";
+  if (href.includes("#services")) return "service_navigation_click";
+  if (href.includes("/products")) return "product_navigation_click";
   return "";
 }
 
