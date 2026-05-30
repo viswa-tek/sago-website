@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { businessInfo } from "@/content/business";
 import { services, type Service } from "@/content/services";
 
 function ServiceIcon({ group }: { group: Service["group"] }) {
@@ -53,7 +54,7 @@ export default function ServicesSection() {
               More than accessories
             </p>
             <p className="text-primary-700/70 text-lg leading-relaxed">
-              SagO also supports everyday tech needs with mobile, laptop, and desktop service guidance, recharges, SIM cards, feature phones, Xerox, and printout services.
+              SagO also supports everyday tech needs with mobile, laptop, and desktop service guidance, recharges, SIM cards, feature phones, Xerox, and printout services for customers around {businessInfo.nearbyAreas.join(", ")}.
             </p>
           </div>
           <Link

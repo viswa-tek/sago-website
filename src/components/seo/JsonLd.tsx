@@ -47,6 +47,10 @@ export function LocalBusinessSchema() {
       "@type": "City",
       name: "Tirunelveli",
     },
+    serviceArea: businessInfo.nearbyAreas.map((area) => ({
+      "@type": "Place",
+      name: area,
+    })),
     makesOffer: services.map((service) => ({
       "@type": "Offer",
       itemOffered: {

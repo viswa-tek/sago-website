@@ -24,6 +24,18 @@ export default function ContactMapSection() {
 
               <div className="flex gap-6">
                 <div className="w-14 h-14 rounded-2xl bg-primary-50 flex items-center justify-center text-primary-900 shrink-0">
+                  <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13 6-3m-6 3V7m6 10 4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7" /></svg>
+                </div>
+                <div>
+                  <h4 className="font-bold text-primary-950 mb-2">Nearby Areas We Serve</h4>
+                  <p className="text-primary-700/70 leading-relaxed">
+                    {businessInfo.nearbyAreas.join(", ")} and nearby Tirunelveli localities.
+                  </p>
+                </div>
+              </div>
+
+              <div className="flex gap-6">
+                <div className="w-14 h-14 rounded-2xl bg-primary-50 flex items-center justify-center text-primary-900 shrink-0">
                   <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
                 </div>
                 <div>
